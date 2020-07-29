@@ -1,6 +1,7 @@
 :root{
     --font-family: 'Be Vietnam', sans-serif;
     --text-color: #222;
+    --btn-backgroundColor: #f1742c;
 }
 
 body{
@@ -39,5 +40,9 @@ body{
 
 .btn{
    height: 8vh;
-   width: 20vw;
+   width: 18vw;
+   border: none;
+   border-radius: 30px;
+   cursor: pointer;
+   background: var(--btn-backgroundColor);
 }
