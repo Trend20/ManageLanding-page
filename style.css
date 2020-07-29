@@ -45,4 +45,6 @@ body{
    border-radius: 30px;
    cursor: pointer;
    background: var(--btn-backgroundColor);
+   color: #fff;
+   font-size: 16px;
 }
