@@ -17,3 +17,14 @@ body{
 .logo{
     margin-right: 10px;
 }
+
+.navbar >ul{
+    display: flex;
+}
+
+.navbar ul li{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
