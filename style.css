@@ -79,6 +79,8 @@ body{
 }
 
 .difference{
+    display: flex;
+    justify-content: space-between;
     margin-top: 10%;
 }
 
@@ -92,4 +94,10 @@ body{
 
 .explanation >p{
     width: 20vw;
+}
+
+.roles{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
