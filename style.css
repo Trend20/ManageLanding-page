@@ -89,3 +89,7 @@ body{
 .explanation >h1{
     width: 30vw;
 }
+
+.explanation >p{
+    width: 20vw;
+}
