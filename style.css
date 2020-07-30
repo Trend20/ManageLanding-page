@@ -66,13 +66,26 @@ body{
     margin-left: 150px;
 }
 
-.illustration >h1{
+.sub-title{
     width: 20vw;
-    font-weight: 900;
+    font-weight: 1500;
+    font-size: 2.0rem;
 }
 
 .illustration-image >img{
     height: 30%;
     width: 30vw;
     margin-right: 150px;
+}
+
+.difference{
+    margin-top: 10%;
+}
+
+.explanation{
+    margin-left: 150px;
+}
+
+.explanation >h1{
+    width: 30vw;
 }
