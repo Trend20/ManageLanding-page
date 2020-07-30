@@ -99,5 +99,23 @@ body{
 .roles{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    width: 35vw;
+    margin-right: 120px;
+}
+
+.role-container{
+    display: flex;
+    
+}
+
+.number{
+    width: 13vw;
+    height: 5vh;
+    border: none;
+    border-radius: 40px;
+    background-color: var(--btn-backgroundColor);
+    text-align: center;
+    margin: 20px;
+    color: #fff;
 }
