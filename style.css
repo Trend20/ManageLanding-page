@@ -146,3 +146,11 @@ body{
     align-items: center;
     max-width: 30vw;
 }
+
+/* content styles */
+
+.simplify{
+    display: flex;
+    justify-content: center;
+}
+/* end of content */
