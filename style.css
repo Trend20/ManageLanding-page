@@ -152,5 +152,30 @@ body{
 .simplify{
     display: flex;
     justify-content: center;
+    align-items: center;
+    background: var(--btn-backgroundColor);
+    height: 30vh;
+    margin: 0;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.content >h1{
+    margin-left: 20px;
+    width: 30vw;
+    font-size: 2rem;
+    font-weight: 1200;
+    color: #fff;
+}
+
+.content >button{
+    background: #fff;
+    color: var(--btn-backgroundColor);
+    font-weight: bold;
 }
 /* end of content */
