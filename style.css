@@ -138,6 +138,7 @@ body{
     justify-content: space-between;
     align-items: center;
     width: 100vw;
+    gap: 30px;
 }
 .testimony-container >div{
     margin: 100px 0px 100px 0px;
