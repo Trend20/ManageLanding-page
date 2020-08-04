@@ -217,3 +217,9 @@ li{
     justify-content: center;
 }
 
+#search{
+    border: none;
+    border-radius: 50px;
+    width: 14vw;
+    height: 7vh;
+}
