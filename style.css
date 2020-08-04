@@ -179,3 +179,8 @@ body{
     margin-right: 120px;
 }
 /* end of content */
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+}
