@@ -223,3 +223,10 @@ li{
     width: 14vw;
     height: 7vh;
 }
+
+#btn{
+    width: 5vw;
+    height: 7vh;
+    border: none;
+    border-radius: 50px;
+}
