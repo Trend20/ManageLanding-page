@@ -222,6 +222,7 @@ li{
     border-radius: 50px;
     width: 14vw;
     height: 7vh;
+    outline: none;
 }
 
 #btn{
@@ -229,6 +230,7 @@ li{
     height: 7vh;
     border: none;
     border-radius: 50px;
+    outline: none;
     background: var(--btn-backgroundColor);
     color: #fff;
     font-weight: bold;
