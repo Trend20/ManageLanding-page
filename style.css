@@ -229,4 +229,7 @@ li{
     height: 7vh;
     border: none;
     border-radius: 50px;
+    background: var(--btn-backgroundColor);
+    color: #fff;
+    font-weight: bold;
 }
