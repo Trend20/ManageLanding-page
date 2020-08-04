@@ -234,4 +234,9 @@ li{
     background: var(--btn-backgroundColor);
     color: #fff;
     font-weight: bold;
+    cursor: pointer;
+}
+
+.search >p{
+    
 }
