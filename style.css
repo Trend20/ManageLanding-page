@@ -197,9 +197,12 @@ body{
 }
 
 .logo-icons>ul{
-    
+    display: flex;
+    margin-top: 80px;
+    align-items: center;
 }
 
 li{
     list-style: none;
+    padding: 5px;
 }
