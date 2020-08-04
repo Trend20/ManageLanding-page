@@ -210,3 +210,10 @@ li{
 .footer-links{
     padding: 10px;
 }
+
+.trademark{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
