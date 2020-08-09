@@ -152,7 +152,10 @@ body{
     max-width: 30vw;
 }
 
-
+.author-details >p{
+    margin: 20px;
+    text-indent: 10px;
+}
 
 /* content styles */
 
@@ -161,8 +164,12 @@ body{
     justify-content: space-between;
     align-items: center;
     background: #e9572a;
+    /* background-image: url(./images/bg-tablet-pattern.svg); */
+    background-repeat: no-repeat;
+    background-size: 50%;
     height: 30vh;
     margin: 0;
+    z-index: 1;
 }
 
 .content >h1{
