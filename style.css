@@ -1,7 +1,7 @@
 :root{
     --font-family: 'Be Vietnam', sans-serif;
     --text-color: #222;
-    --btn-backgroundColor: #f1742c;
+    --btn-backgroundColor: #f56411;
 }
 
 body{
@@ -152,6 +152,8 @@ body{
     max-width: 30vw;
 }
 
+
+
 /* content styles */
 
 .content{
@@ -217,6 +219,11 @@ li{
     justify-content: center;
 }
 
+.search{
+    display: inline-flex;
+    gap: 150px;
+}
+
 #search{
     border: none;
     border-radius: 50px;
@@ -237,6 +244,9 @@ li{
     cursor: pointer;
 }
 
-.search >p{
-    
+.trademark >p{
+    margin-top: 70px;
+    font-size: 10px;
+    margin-left: 60px;
+    color: #b9b9b9;
 }
