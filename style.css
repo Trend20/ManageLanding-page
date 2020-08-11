@@ -2,6 +2,10 @@
     --font-family: 'Be Vietnam', sans-serif;
     --text-color: #222;
     --btn-backgroundColor: #f56411;
+    --p-color:#525050;
+}
+p{
+    color: var(--p-color);
 }
 
 body{
