@@ -158,7 +158,8 @@ body{
 
 .author-details >p{
     margin: 20px;
-    text-indent: 10px;
+    text-indent: -28px;
+    padding-left: 28px;
 }
 
 /* content styles */
