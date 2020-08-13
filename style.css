@@ -25,6 +25,7 @@ body{
     align-items: center;
     height: auto;
     margin-bottom: 10%;
+    margin-top: 20px;
 }
 
 .logo{
@@ -63,12 +64,10 @@ body{
    outline: none;
 }
 
-.bar > span{
-    display: flex;
-    color: #222;
-    flex-direction: column;
-    font-size: large;
-    background: #222;
+.toggle{
+    font-size: 2.5rem;
+    cursor: pointer;
+    display: none;
 }
 
 .banner{
