@@ -1,0 +1,10 @@
+@media (max-width: 480px){
+    
+
+    .header{
+        display:flex;
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+}
