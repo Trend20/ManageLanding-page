@@ -1,4 +1,4 @@
-@media (max-width: 480px){
+@media screen and (min-width: 480px){
     
 
     .header{
@@ -8,5 +8,53 @@
         margin-bottom: 20px;
         height: 70px;
     }
+
+    .logo{
+        margin: 20px;
+    }
+
+    .navbar{
+        display: none;
+    }
+    
+    .navbar >ul{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .navbar ul li{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px;
+    }
+    
+    .navbar ul li a{
+        text-decoration: none;
+        text-transform: capitalize;
+        color: var(--text-color);
+        font-size: 16px;
+        font-weight: 600;
+    }
+    
+    .btn{
+       height: 8vh;
+       width: 15vw;
+       border: none;
+       border-radius: 30px;
+       cursor: pointer;
+       background: var(--btn-backgroundColor);
+       color: #fff;
+       font-size: 16px;
+       font-weight: 500;
+       outline: none;
+       display: none;
+    }
+    
+    .toggle{
+        font-size: 2.5rem;
+        cursor: pointer;
+    }
+    
 
 }
